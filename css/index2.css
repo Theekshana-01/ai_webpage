@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+}
+body {
+	background-color: #FFA07A;
+	border: inset;
+	border-color: blue;
+	border-width: medium;
+}
+
+.h1 {
+	font-size: 30px;
+	color:  darkblue;
+	text-align: center;
+	text-decoration: underline overline;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}	
+
+.box-1 {
+	max-height: 250px;
+	background-color:none;
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}	
+
+.p1 {
+	font-size: 26px;
+	font-style: italic;
+	text-align: justify;
+	color: maroon;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+.p1::first-letter {
+	font-size: 45px ;
+}
+
+ul {
+	list-style-type: upper-roman;
+	margin-left: 20px;
+	margin-right: 20px;
+}	
+
+.point {
+	font-size: 20px;
+	color: darkmagenta;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}	
+
+.hr {
+	border: none;
+	height: 5px;
+	background-color: rgb(0, 0, 0);
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.box00{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-01{
+   
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.box-01:hover{
+    transform: scale(1.5);
+}
+
+.box-02{
+    
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.box-02:hover{
+    transform: scale(1.5);
+}
+
+.box-03{
+    
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.box-03:hover{
+    transform: scale(1.5);
+}
+.box-04{
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.box-04:hover{
+    transform: scale(1.5);
+}
+
+.find {
+    
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+a:hover {
+    color: red;
+}

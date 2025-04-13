@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+
+}
+body {
+    background-color: black;
+    max-height: auto;
+    border: inset;
+    border-color: white;
+    border-width: medium;
+}   
+
+.topic {
+    text-align: center;
+    font-size: 50px;
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: blanchedalmond;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.p1 {
+    color: white;
+    font-size: x-large;
+    text-align: left;
+    font-style: italic;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.video1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-top: 20px;
+}  
+
+ul {
+    list-style-type: upper-alpha;
+    color: wheat;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.h1 {
+    color: aqua;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+} 
+
+.h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+.point {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    text-align: left;
+}   
+
+.box {
+    
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.hr {
+    border: none;
+	height: 5px;
+	background-color: white;
+	margin-bottom: 15px;
+    
+}
+
+.box00{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-01{
+   
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+.box-01:hover{
+    transform: scale(1.5);
+}
+
+.box-02{
+    
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+
+}
+
+.box-02:hover{
+    transform: scale(1.5);
+}
+
+.box-03{
+    
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+.box-03:hover{
+    transform: scale(1.5);
+}
+
+.box-04{
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+.box-04:hover{
+    transform: scale(1.5);
+}
+
+.find {
+    
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+a:hover {
+    color: red;
+}
